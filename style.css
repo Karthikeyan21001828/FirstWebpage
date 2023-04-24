@@ -1,0 +1,134 @@
+.container {
+    width: 1080px;
+    height: 265px;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+  }
+  .containerbody {
+    width: 1080px;
+    height: 1460px;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+  }
+  
+  .menu {
+    display: block;
+    width: 100%;
+    height: 250px;
+    font-size: larger;
+    background-color: pink;
+    text-align: center;
+    padding-top: 15px;
+    margin: 0px 0px 0px 0px;
+    border-width: 1px;
+  }
+  
+  .menuitem {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .menuitemselected {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #16d1ae;
+  }
+  .menuitem a
+  {
+    color: black;
+    border-left: 2px;
+  }
+  .menuitemselected a
+  {
+    color: black;
+    border-left: 2px;
+  }
+  .color
+  {
+    color:aliceblue
+  }
+  .items 
+  {
+    display: block;
+    width: 100%;
+    height: 350px;
+    font-size: larger;
+    background-color: white;
+    padding-top: 15px;
+    margin: 0px 0px 0px 0px;
+    border-width: 1px;
+  }
+  .itemstext
+  {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .imagecinnamon
+  {
+    display: block;
+    width: 50%;
+    height: 350px;
+    font-size: medium;
+    background-color: white;
+    margin: 0px 0px 0px 0px;
+    background-image: url("cinnamon.jpg");
+    background-size: 520 365;
+    background-repeat: no-repeat;
+    float: left;
+  }
+  .imagedonut
+  {
+    display: block;
+    width: 20%;
+    height: 150px;
+    font-size: medium;
+    background-color: white;
+    float: left;
+  }
+  .imagepoppy
+  {
+    display: block;
+    width: 50%;
+    height: 350px;
+    font-size: medium;
+    background-color: white;
+    margin: 0px 0px 0px 0px;
+    background-image: url("poppy.jpg");
+    background-size: 520 365;
+    background-repeat: no-repeat;
+    float: left;
+  }
+  .imagemuffin
+  {
+    display: block;
+    width: 50%;
+    height: 350px;
+    font-size: medium;
+    background-color: white;
+    margin: 0px 0px 0px 0px;
+    background-image: url("muffin.jpg");
+    background-size: 520 365;
+    background-repeat: no-repeat;
+    float: left;
+  }
+  .text
+  {
+    float: left;
+    width: 50%;
+    height: 350px;
+  }
+  .footer
+  {
+    background-color: pink;
+    text-align: center;
+  }
+  .footer p
+  {
+    color: white;
+  }
